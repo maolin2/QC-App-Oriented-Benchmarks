@@ -30,7 +30,8 @@ _use_XX_YY_ZZ_gates = False
 
 # import precalculated data to compare against
 try:
-    precalculated_data = json.load(open('hamiltonian-simulation/_common/precalculated_data.json', 'r'))
+    # precalculated_data = json.load(open('hamiltonian-simulation/_common/precalculated_data.json', 'r'))
+    precalculated_data = json.load(open('../_common/precalculated_data.json', 'r'))
 except:
     precalculated_data = json.load(open('_common/precalculated_data.json', 'r'))
 
